@@ -1,0 +1,40 @@
+{
+  "expo": {
+    "name": "Lovely Lines",
+    "slug": "lovely-lines",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.hanna.lovelylines"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#F7F3EE",
+        "foregroundImage": "./assets/android-icon-foreground.png",
+        "backgroundImage": "./assets/android-icon-background.png",
+        "monochromeImage": "./assets/android-icon-monochrome.png"
+      },
+      "predictiveBackGestureEnabled": false,
+      "package": "com.hanna.lovelylines"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png",
+      "output": "single",
+      "name": "Lovely Lines",
+      "shortName": "Lovely Lines",
+      "lang": "ko",
+      "themeColor": "#FFF4EE",
+      "backgroundColor": "#FFF4EE",
+      "display": "standalone"
+    },
+    "experiments": {
+      "baseUrl": "/Lively-Lines"
+    },
+    "plugins": [
+      "expo-font"
+    ]
+  }
+}
